@@ -38,7 +38,7 @@ body {
 
 .gpt-response {
     background-color: #e9ecef; /* Light gray background */
-    border-left: 5px solid #f8f8f8; /* Blue for user-prompt, change for gpt-response */
+    border-left: 5px solid #fd7e14; /* Blue for user-prompt, change for gpt-response */
     padding: 15px;
     margin: 20px auto; /* Center the divs and add vertical margin */
     margin-bottom: 20px;    
