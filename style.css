@@ -4,8 +4,10 @@ body {
     color: #333;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
+    padding: 20px 80px; /* Increased side padding */
 }
+   
+
 
 .title h1 {
     color: #0d6efd; /* Bootstrap primary blue */
@@ -15,11 +17,13 @@ body {
 
 .user-prompt {
     background-color: #ffffff;
-    border-left: 5px solid #0d6efd; /* Bootstrap primary blue */
+    border-left: 5px solid #0d6efd; /* Blue for user-prompt, change for gpt-response */
     padding: 15px;
+    margin: 20px auto; /* Center the divs and add vertical margin */
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 5px;
+    max-width: 800px; /* Max width for the prompt and response sections */
 }
 
 .user-label {
@@ -34,11 +38,14 @@ body {
 
 .gpt-response {
     background-color: #e9ecef; /* Light gray background */
-    border-left: 5px solid #fd7e14; /* Bootstrap warning orange */
+    border-left: 5px solid #0d6efd; /* Blue for user-prompt, change for gpt-response */
     padding: 15px;
-    margin-bottom: 20px;
+    margin: 20px auto; /* Center the divs and add vertical margin */
+    margin-bottom: 20px;    
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 5px;
+    max-width: 800px; /* Max width for the prompt and response sections */
+
 }
 
 .gpt-label {
